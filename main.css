@@ -1,39 +1,75 @@
-.wrapper{
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-}
 
-.nav{
-    height: 100px;
-    display: flex;
-    justify-content: center;
-}
 
-/* .nav-header{
-
-} */
-
-.container{
-    display: flex;
-    justify-content: center;
-    height: 500px;
-    width: 350px;
-    align-self: center;
-    background-image: url('./images/bear.jpg')
-}
-
-.butt-hold{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    
-}
 
 button{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    margin-bottom: 125px;
+    margin-bottom: 180px;
     background-color: green;
+    align-self: center;
+}
+
+.head{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+.mainBod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.centerDeets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.infoAnimal{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: column;
+    background-image: url('./images/bear.jpg');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 350px;
+}
+
+.projectHold{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    width: 33%;
+    justify-content: center;
+}
+
+.minorHead{
+    width: 150px;
+    height: 60px;
+    border: none;
+}
+
+.prevProject{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
 }
