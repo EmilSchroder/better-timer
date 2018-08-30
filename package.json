@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "react": "^16.4.2",
+    "webpack": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server",
+    "webpack": "webpack"
+  },
+  "name": "better-timer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EmilSchroder/better-timer.git",
+  "author": "EmilSchroder <eschro66@gmail.com>",
+  "license": "MIT"
+}
